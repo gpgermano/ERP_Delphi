@@ -1,0 +1,72 @@
+object ServiceCadastro: TServiceCadastro
+  Height = 480
+  Width = 640
+  object QRY_pessoas: TFDQuery
+    Connection = ServiceConexao.FDConn
+    SQL.Strings = (
+      'SELECT * FROM PESSOAS where pes_codigo = :codigo')
+    Left = 224
+    Top = 120
+    ParamData = <
+      item
+        Name = 'CODIGO'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end>
+    object QRY_pessoasPES_CODIGO: TIntegerField
+      FieldName = 'PES_CODIGO'
+      Origin = 'PES_CODIGO'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object QRY_pessoasPES_RAZAO: TStringField
+      FieldName = 'PES_RAZAO'
+      Origin = 'PES_RAZAO'
+      Size = 100
+    end
+    object QRY_pessoasPES_FANTASIA: TStringField
+      FieldName = 'PES_FANTASIA'
+      Origin = 'PES_FANTASIA'
+      Size = 100
+    end
+    object QRY_pessoasPES_TELEFONE: TStringField
+      FieldName = 'PES_TELEFONE'
+      Origin = 'PES_TELEFONE'
+      Size = 50
+    end
+    object QRY_pessoasPES_CNPJCPF: TStringField
+      FieldName = 'PES_CNPJCPF'
+      Origin = 'PES_CNPJCPF'
+      Size = 50
+    end
+    object QRY_pessoasPES_IREG: TStringField
+      FieldName = 'PES_IREG'
+      Origin = 'PES_IREG'
+      Size = 50
+    end
+    object QRY_pessoasPES_OBSERVACAO: TStringField
+      FieldName = 'PES_OBSERVACAO'
+      Origin = 'PES_OBSERVACAO'
+      Size = 250
+    end
+    object QRY_pessoasPES_TIPOPESSOA: TIntegerField
+      FieldName = 'PES_TIPOPESSOA'
+      Origin = 'PES_TIPOPESSOA'
+    end
+  end
+  object QRY_enderecos: TFDQuery
+    Connection = ServiceConexao.FDConn
+    SQL.Strings = (
+      'SELECT * FROM ENDERECO where end_codigo = :codigo')
+    Left = 304
+    Top = 224
+    ParamData = <
+      item
+        Name = 'CODIGO'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = Null
+      end>
+  end
+end

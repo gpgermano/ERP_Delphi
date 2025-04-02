@@ -1,0 +1,14 @@
+program ErpSimples;
+
+uses
+  Vcl.Forms,
+  ViewPrincipal in 'ViewPrincipal.pas' {FrmErpSimplesPricipal};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmErpSimplesPricipal, FrmErpSimplesPricipal);
+  Application.Run;
+end.

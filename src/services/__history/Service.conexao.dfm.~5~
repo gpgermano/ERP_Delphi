@@ -1,0 +1,13 @@
+object ServiceConexao: TServiceConexao
+  Height = 480
+  Width = 640
+  object FDConn: TFDConnection
+    Left = 128
+    Top = 80
+  end
+  object Cursor: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 288
+    Top = 160
+  end
+end
