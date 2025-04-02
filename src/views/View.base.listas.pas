@@ -35,7 +35,6 @@ type
     CardPanel_listas: TCardPanel;
     card_pesquisa: TCard;
     card_cadastro: TCard;
-    Label1: TLabel;
     pnlTituloPesquisa: TPanel;
     lblTituloPesquisa: TLabel;
     edtPesquisa: TSearchBox;

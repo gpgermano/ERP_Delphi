@@ -1,0 +1,84 @@
+inherited ViewFornecedores: TViewFornecedores
+  Caption = 'ViewFornecedores'
+  StyleElements = [seFont, seClient, seBorder]
+  TextHeight = 15
+  inherited pnlTopo: TPanel
+    StyleElements = [seFont, seClient, seBorder]
+    inherited lblTitulo: TLabel
+      Width = 904
+      Height = 35
+      Caption = 'Fornecedores'
+      StyleElements = [seFont, seClient, seBorder]
+      ExplicitWidth = 115
+    end
+    inherited pnlIcone: TPanel
+      StyleElements = [seFont, seClient, seBorder]
+    end
+    inherited pnlFechar: TPanel
+      StyleElements = [seFont, seClient, seBorder]
+    end
+  end
+  inherited pnlRodape: TPanel
+    StyleElements = [seFont, seClient, seBorder]
+  end
+  inherited pnlLinhaDeFundo: TPanel
+    StyleElements = [seFont, seClient, seBorder]
+    inherited CardPanel_listas: TCardPanel
+      ActiveCard = card_pesquisa
+      StyleElements = [seFont, seClient, seBorder]
+      inherited card_pesquisa: TCard
+        StyleElements = [seFont, seClient, seBorder]
+        ExplicitLeft = 24
+        ExplicitTop = -3
+        ExplicitWidth = 1024
+        ExplicitHeight = 480
+        inherited pnlTituloPesquisa: TPanel
+          StyleElements = [seFont, seClient, seBorder]
+          ExplicitWidth = 1024
+          inherited lblTituloPesquisa: TLabel
+            StyleElements = [seFont, seClient, seBorder]
+          end
+          inherited edtPesquisa: TSearchBox
+            StyleElements = [seFont, seClient, seBorder]
+          end
+        end
+        inherited DBG_dados: TDBGrid
+          Columns = <
+            item
+              Expanded = False
+              FieldName = 'PES_CODIGO'
+              Title.Caption = 'C'#243'digo'
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'PES_RAZAO'
+              Title.Caption = 'Nome Fornecedor'
+              Width = 169
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'PES_TELEFONE'
+              Title.Caption = 'Telefone'
+              Width = 204
+              Visible = True
+            end
+            item
+              Expanded = False
+              FieldName = 'PES_CNPJCPF'
+              Title.Caption = 'CNPJ/CPF'
+              Visible = True
+            end>
+        end
+      end
+      inherited card_cadastro: TCard
+        StyleElements = [seFont, seClient, seBorder]
+      end
+    end
+  end
+  inherited dsDados: TDataSource
+    DataSet = ServiceCadastro.QRY_pessoas
+    Top = 51
+  end
+end

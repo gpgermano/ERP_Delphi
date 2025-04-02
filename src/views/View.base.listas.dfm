@@ -1,18 +1,18 @@
 inherited ViewBaseListas: TViewBaseListas
   BorderStyle = bsNone
   Caption = 'ViewBaseListas'
-  ClientHeight = 568
-  ClientWidth = 1012
+  ClientHeight = 550
+  ClientWidth = 1024
   Position = poMainFormCenter
   StyleElements = [seFont, seClient, seBorder]
   OnShow = FormShow
-  ExplicitWidth = 1012
-  ExplicitHeight = 568
+  ExplicitWidth = 1024
+  ExplicitHeight = 550
   TextHeight = 15
   object pnlTopo: TPanel
     Left = 0
     Top = 0
-    Width = 1012
+    Width = 1024
     Height = 35
     Align = alTop
     BevelOuter = bvNone
@@ -20,10 +20,11 @@ inherited ViewBaseListas: TViewBaseListas
     ParentBackground = False
     TabOrder = 0
     OnMouseDown = pnlTopoMouseDown
+    ExplicitWidth = 1012
     object lblTitulo: TLabel
       Left = 33
       Top = 0
-      Width = 892
+      Width = 904
       Height = 35
       Align = alClient
       Caption = 'lblTitulo'
@@ -35,8 +36,6 @@ inherited ViewBaseListas: TViewBaseListas
       Font.Style = [fsBold]
       ParentFont = False
       OnMouseDown = pnlTopoMouseDown
-      ExplicitLeft = 37
-      ExplicitTop = 4
       ExplicitWidth = 70
       ExplicitHeight = 25
     end
@@ -52,9 +51,6 @@ inherited ViewBaseListas: TViewBaseListas
       ParentBackground = False
       TabOrder = 0
       OnMouseDown = pnlTopoMouseDown
-      ExplicitLeft = 1
-      ExplicitTop = 1
-      ExplicitHeight = 33
       object imgIconeLista: TImage
         Left = 0
         Top = 0
@@ -203,7 +199,7 @@ inherited ViewBaseListas: TViewBaseListas
       end
     end
     object pnlFechar: TPanel
-      Left = 925
+      Left = 937
       Top = 0
       Width = 87
       Height = 35
@@ -212,9 +208,7 @@ inherited ViewBaseListas: TViewBaseListas
       Color = 5395026
       ParentBackground = False
       TabOrder = 1
-      ExplicitLeft = 536
-      ExplicitTop = 1
-      ExplicitHeight = 33
+      ExplicitLeft = 925
       object btnSair: TSpeedButton
         Left = 0
         Top = 0
@@ -239,8 +233,8 @@ inherited ViewBaseListas: TViewBaseListas
   end
   object pnlRodape: TPanel
     Left = 0
-    Top = 533
-    Width = 1012
+    Top = 515
+    Width = 1024
     Height = 35
     Align = alBottom
     BevelOuter = bvNone
@@ -248,11 +242,11 @@ inherited ViewBaseListas: TViewBaseListas
     ParentBackground = False
     TabOrder = 1
     OnMouseDown = pnlTopoMouseDown
-    ExplicitTop = 406
-    ExplicitWidth = 624
+    ExplicitTop = 533
+    ExplicitWidth = 1012
     object btnNovo: TSpeedButton
       AlignWithMargins = True
-      Left = 772
+      Left = 784
       Top = 3
       Width = 75
       Height = 29
@@ -273,7 +267,7 @@ inherited ViewBaseListas: TViewBaseListas
     end
     object btnEditar: TSpeedButton
       AlignWithMargins = True
-      Left = 691
+      Left = 703
       Top = 3
       Width = 75
       Height = 29
@@ -294,7 +288,7 @@ inherited ViewBaseListas: TViewBaseListas
     end
     object btnCancelar: TSpeedButton
       AlignWithMargins = True
-      Left = 610
+      Left = 622
       Top = 3
       Width = 75
       Height = 29
@@ -315,7 +309,7 @@ inherited ViewBaseListas: TViewBaseListas
     end
     object btnSalvar: TSpeedButton
       AlignWithMargins = True
-      Left = 853
+      Left = 865
       Top = 3
       Width = 75
       Height = 29
@@ -336,7 +330,7 @@ inherited ViewBaseListas: TViewBaseListas
     end
     object btnExlcuir: TSpeedButton
       AlignWithMargins = True
-      Left = 934
+      Left = 946
       Top = 3
       Width = 75
       Height = 29
@@ -359,50 +353,46 @@ inherited ViewBaseListas: TViewBaseListas
   object pnlLinhaDeFundo: TPanel
     Left = 0
     Top = 35
-    Width = 1012
-    Height = 498
+    Width = 1024
+    Height = 480
     Align = alClient
     BevelOuter = bvNone
     Color = 7566195
     ParentBackground = False
     TabOrder = 2
-    ExplicitLeft = 360
-    ExplicitTop = 232
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 1012
+    ExplicitHeight = 498
     object CardPanel_listas: TCardPanel
       Left = 0
       Top = 0
-      Width = 1012
-      Height = 498
+      Width = 1024
+      Height = 480
       Margins.Left = 0
       Margins.Top = 0
       Margins.Right = 0
       Margins.Bottom = 0
       Align = alClient
-      ActiveCard = card_pesquisa
+      ActiveCard = card_cadastro
       BevelOuter = bvNone
       Color = clWhite
       ParentBackground = False
       TabOrder = 0
-      ExplicitLeft = 272
-      ExplicitTop = 136
-      ExplicitWidth = 300
-      ExplicitHeight = 200
+      ExplicitWidth = 1012
+      ExplicitHeight = 498
       object card_pesquisa: TCard
         Left = 0
         Top = 0
-        Width = 1012
-        Height = 498
+        Width = 1024
+        Height = 480
         Caption = 'card_pesquisa'
         CardIndex = 0
         TabOrder = 0
-        ExplicitWidth = 185
-        ExplicitHeight = 41
+        ExplicitWidth = 1012
+        ExplicitHeight = 498
         object pnlTituloPesquisa: TPanel
           Left = 0
           Top = 0
-          Width = 1012
+          Width = 1024
           Height = 100
           Align = alTop
           BevelOuter = bvNone
@@ -415,7 +405,7 @@ inherited ViewBaseListas: TViewBaseListas
           ParentBackground = False
           ParentFont = False
           TabOrder = 0
-          ExplicitTop = -3
+          ExplicitWidth = 1012
           object lblTituloPesquisa: TLabel
             Left = 33
             Top = 0
@@ -451,8 +441,8 @@ inherited ViewBaseListas: TViewBaseListas
           AlignWithMargins = True
           Left = 5
           Top = 103
-          Width = 1002
-          Height = 390
+          Width = 1014
+          Height = 372
           Margins.Left = 5
           Margins.Right = 5
           Margins.Bottom = 5
@@ -471,20 +461,13 @@ inherited ViewBaseListas: TViewBaseListas
       object card_cadastro: TCard
         Left = 0
         Top = 0
-        Width = 1012
-        Height = 498
+        Width = 1024
+        Height = 480
         Caption = 'card_cadastro'
         CardIndex = 1
         TabOrder = 1
-        ExplicitWidth = 185
-        ExplicitHeight = 41
-        object Label1: TLabel
-          Left = 496
-          Top = 192
-          Width = 45
-          Height = 15
-          Caption = 'cadastro'
-        end
+        ExplicitWidth = 1012
+        ExplicitHeight = 498
       end
     end
   end

@@ -20,7 +20,7 @@ uses
   Vcl.ActnList,
   System.ImageList,
   Vcl.ImgList,
-  Provider.constants;
+  Provider.constants, View.clientes, View.fornecedores;
 
 type
   TFrmErpSimplesPricipal = class(TForm)
@@ -95,6 +95,12 @@ end;
 procedure TFrmErpSimplesPricipal.btnClientesClick(Sender: TObject);
 begin
   Get_lineMenu(Sender);
+  ViewClientes := TViewClientes.Create(self);
+  try
+    ViewClientes.ShowModal;
+  finally
+    FreeAndNil(ViewClientes);
+  end;
 end;
 
 procedure TFrmErpSimplesPricipal.btnConfigClick(Sender: TObject);
@@ -105,6 +111,12 @@ end;
 procedure TFrmErpSimplesPricipal.btnFornecedoresClick(Sender: TObject);
 begin
   Get_lineMenu(Sender);
+  ViewFornecedores := TViewFornecedores.Create(self);
+  try
+    ViewFornecedores.ShowModal;
+  finally
+    FreeAndNil(ViewFornecedores);
+  end;
 end;
 
 procedure TFrmErpSimplesPricipal.btnProdutosClick(Sender: TObject);

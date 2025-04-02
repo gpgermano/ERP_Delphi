@@ -130,6 +130,14 @@
             <Form>ViewBaseListas</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="View.clientes.pas">
+            <Form>ViewClientes</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="View.fornecedores.pas">
+            <Form>ViewFornecedores</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

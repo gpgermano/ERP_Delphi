@@ -2198,8 +2198,8 @@ object FrmErpSimplesPricipal: TFrmErpSimplesPricipal
           ParentFont = False
           OnMouseEnter = lblTituloEmpresaMouseEnter
           OnMouseLeave = lblTituloEmpresaMouseLeave
-          ExplicitLeft = -6
-          ExplicitTop = 1
+          ExplicitWidth = 96
+          ExplicitHeight = 30
         end
         object lblDescricaoEmpresa: TLabel
           AlignWithMargins = True
@@ -2266,7 +2266,6 @@ object FrmErpSimplesPricipal: TFrmErpSimplesPricipal
         Font.Name = 'Segoe UI Light'
         Font.Style = []
         ParentFont = False
-        ExplicitTop = 24
         ExplicitWidth = 42
       end
     end

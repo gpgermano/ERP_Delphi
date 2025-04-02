@@ -4,23 +4,29 @@
     <Transaction>2025/03/24 21:17:53.000.001,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
     <Transaction>2025/03/24 21:19:25.000.306,C:\projetos\ErpSimples\src\views\Unit1.dfm=C:\projetos\ErpSimples\src\services\Service.conexao.dfm</Transaction>
     <Transaction>2025/03/24 21:19:25.000.306,C:\projetos\ErpSimples\src\views\Unit1.pas=C:\projetos\ErpSimples\src\services\Service.conexao.pas</Transaction>
-    <Transaction>2025/03/28 00:44:42.095,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 00:46:19.824,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 01:35:00.680,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 01:35:53.568,C:\projetos\ErpSimples\src\services\Service.cadastro.dfm=C:\projetos\ErpSimples\src\views\Unit1.dfm</Transaction>
-    <Transaction>2025/03/28 01:35:53.568,C:\projetos\ErpSimples\src\services\Service.cadastro.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 01:55:33.950,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 01:56:28.913,C:\projetos\ErpSimples\src\providers\Provider.constants.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 02:33:16.785,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 02:33:38.112,C:\projetos\ErpSimples\src\views\Viw.base.dfm=C:\projetos\ErpSimples\src\views\Unit1.dfm</Transaction>
-    <Transaction>2025/03/28 02:33:38.112,C:\projetos\ErpSimples\src\views\Viw.base.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 02:36:59.097,C:\projetos\ErpSimples\src\views\Viw.base.pas=</Transaction>
-    <Transaction>2025/03/28 02:37:07.273,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 02:37:28.456,C:\projetos\ErpSimples\src\views\View.base.dfm=C:\projetos\ErpSimples\src\views\Unit1.dfm</Transaction>
-    <Transaction>2025/03/28 02:37:28.456,C:\projetos\ErpSimples\src\views\View.base.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 02:54:29.579,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
-    <Transaction>2025/03/28 02:55:11.395,C:\projetos\ErpSimples\src\views\View.base.listas.dfm=C:\projetos\ErpSimples\src\views\Unit1.dfm</Transaction>
-    <Transaction>2025/03/28 02:55:11.395,C:\projetos\ErpSimples\src\views\View.base.listas.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 00:44:42.000.095,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 00:46:19.000.824,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 01:35:00.000.680,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 01:35:53.000.568,C:\projetos\ErpSimples\src\services\Service.cadastro.dfm=C:\projetos\ErpSimples\src\views\Unit1.dfm</Transaction>
+    <Transaction>2025/03/28 01:35:53.000.568,C:\projetos\ErpSimples\src\services\Service.cadastro.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 01:55:33.000.950,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 01:56:28.000.913,C:\projetos\ErpSimples\src\providers\Provider.constants.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 02:33:16.000.785,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 02:33:38.000.112,C:\projetos\ErpSimples\src\views\Viw.base.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 02:33:38.000.112,C:\projetos\ErpSimples\src\views\Viw.base.dfm=C:\projetos\ErpSimples\src\views\Unit1.dfm</Transaction>
+    <Transaction>2025/03/28 02:36:59.000.097,C:\projetos\ErpSimples\src\views\Viw.base.pas=</Transaction>
+    <Transaction>2025/03/28 02:37:07.000.273,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 02:37:28.000.456,C:\projetos\ErpSimples\src\views\View.base.dfm=C:\projetos\ErpSimples\src\views\Unit1.dfm</Transaction>
+    <Transaction>2025/03/28 02:37:28.000.456,C:\projetos\ErpSimples\src\views\View.base.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 02:54:29.000.579,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 02:55:11.000.395,C:\projetos\ErpSimples\src\views\View.base.listas.pas=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/03/28 02:55:11.000.395,C:\projetos\ErpSimples\src\views\View.base.listas.dfm=C:\projetos\ErpSimples\src\views\Unit1.dfm</Transaction>
+    <Transaction>2025/04/01 22:24:49.000.427,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/04/01 22:25:43.000.180,C:\projetos\ErpSimples\src\views\Unit1.pas=C:\projetos\ErpSimples\src\views\View.clientes.pas</Transaction>
+    <Transaction>2025/04/01 22:25:43.000.180,C:\projetos\ErpSimples\src\views\Unit1.dfm=C:\projetos\ErpSimples\src\views\View.clientes.dfm</Transaction>
+    <Transaction>2025/04/02 00:26:30.000.593,=C:\projetos\ErpSimples\src\views\Unit1.pas</Transaction>
+    <Transaction>2025/04/02 00:27:28.000.379,C:\projetos\ErpSimples\src\views\Unit1.dfm=C:\projetos\ErpSimples\src\views\View.fornecedores.dfm</Transaction>
+    <Transaction>2025/04/02 00:27:28.000.379,C:\projetos\ErpSimples\src\views\Unit1.pas=C:\projetos\ErpSimples\src\views\View.fornecedores.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="..\..\src"/>
@@ -37,5 +43,9 @@
     <File Path="View.base.dfm"/>
     <File Path="View.base.listas.pas"/>
     <File Path="View.base.listas.dfm"/>
+    <File Path="View.clientes.pas"/>
+    <File Path="View.clientes.dfm"/>
+    <File Path="View.fornecedores.pas"/>
+    <File Path="View.fornecedores.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>
